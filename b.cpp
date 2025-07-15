@@ -6,12 +6,14 @@
 //
 
 #include <string>
+#include <iostream>
 #include <vector>
 
 int main(){
-    vector<int> a(10,1);
+    std::vector<int> a(10,1);
     for(auto i : a){
         std::cout<<i<<' ';
     }
+    std::cout<<std::endl;
     return 0;
 }
